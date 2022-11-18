@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+    <title>Home page</title>
+    </head>
+    <body >
+
+<center>
+<form id="home" action="example.html" method="post">
+
+<h2>Enter your Flight details </h2>
+
+<div class="formGroup">
+<label>Flight Number</label>
+<input type="number" name="flight_num" maxlength="10" autocomplete="off">
+<br><br>
+</div>
+
+<div class="formGroup">
+<label>Month</label>
+<input type="number" name="month" maxlength="5" autocomplete="off">
+<br><br>
+</div>
+
+<div class="formGroup">
+<label>Day of month</label>
+<input type="number" name="dayofmonth" maxlength="5" autocomplete="off">
+<br><br>
+</div>
+
+<div class="formGroup">
+  <label>Day of week</label>
+  <input type="number" name="dayofweek" maxlength="5" autocomplete="off">
+  <br><br>
+</div>
+
+
+<div class="formGroup">
+<label>origin</label>
+<select name="origin" autocomplete="off">
+          <option>Select</option>
+          <option>msp</option>
+          <option>dtw</option>
+          <option>jfk</option>
+          <option>sea</option>
+          <option>alt</option>
+</select>
+<br><br>
+</div>
+
+<div class="formGroup">
+<label>destination</label>
+<select name="destinaion" required autocomplete="off">
+  <option>Select</option>
+  <option>msp</option>
+  <option>dtw</option>
+  <option>jfk</option>
+  <option>sea</option>
+  <option>alt</option>
+</select>
+<br><br>
+</div>
+
+<div class="formGroup">
+  <label>Scheduled departure time</label>
+  <input type="number" name="departuretime" maxlength="5" autocomplete="off">
+  <br><br>
+</div>
+
+<div class="formGroup">
+  <label>Scheduled arrival time</label>
+  <input type="number" name="arrivaltime" maxlength="5" autocomplete="off">
+  <br><br>
+</div>
+
+<div class="formGroup">
+  <label>Actual Departure time</label>
+  <input type="number" name="actualdeparturetime" maxlength="5" autocomplete="off">
+  <br><br>
+  </div>
+
+<div class="formGroup">
+<input type="submit" value="Find Status">
+
+<p><br><a href="share.html">click here to share this website</a></p>
+
+</div>
+</form>
+
+</center>
+
+</body>
+<footer>
+
+
+</footer>
+
+</html>
